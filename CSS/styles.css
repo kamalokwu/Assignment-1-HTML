@@ -1,47 +1,15 @@
-/* Kelvin Amalokwu */
-/* 9007036 */
+/* Kelvin Amalokwu 9007036 */
 
-/* Root Element */
-html {font: normal normal normal 20px/1.5 Arial, Serif; background-color: whitesmoke;}
+/* Root Element Styling */
+html {font: normal normal normal 20px/1.5 verdana, sans-serif; background-color: white;}
 
 /* Body Styling */
 body {max-width: 1200px; margin: 0 auto; padding: 1rem; border: 0.2rem solid black;}
 
-/* Layout */
-#biography, #Video, #quotes {
-    float: left;
-    width: 70%;
-    padding: 1rem;
-}
 
-aside {
-    float: right;
-    width: 30%;
-    padding: 1rem;
-}
 
-/* Clearfix */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+/* Aside Styling */
+a:hover {color: red;}
+li {list-style-type: none; }
+a {text-decoration: none; color: blue; }
 
-/* Header & Footer */
-header {
-    background: linear-gradient(to right, lightgray, silver);
-    padding: 1rem;
-    text-align: center;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-footer {
-    font-size: 0.8rem;
-    clear: both;
-    text-align: center;
-    background: linear-gradient(to right, silver, lightgray);
-    padding: 1rem;
-}
