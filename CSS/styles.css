@@ -6,10 +6,39 @@ html {font: normal normal normal 20px/1.5 verdana, sans-serif; background-color:
 /* Body Styling */
 body {max-width: 1200px; margin: 0 auto; padding: 1rem; border: 0.2rem solid black;}
 
-
+header, main, aside, footer {
+    margin: .5rem;
+    padding-left: .5rem;
+}
 
 /* Aside Styling */
 a:hover {color: red;}
-li {list-style-type: none; }
-a {text-decoration: none; color: blue; }
+li {list-style-type: none;  }
+a {text-decoration: none; color: blue; line-height: 1.8;}
+aside h2 {text-align: center; font-variant: small-caps; color: red;}
+label {font-variant: small-caps; font-weight: bold; color: brown; text-align: center;}
+input, textarea, select {width: 50%; height: 2rem; padding: 0.5rem; margin-bottom: 1rem; display: block;}
 
+/* Header and Footer */
+h1 {font-size: 1.5rem; background: linear-gradient(to right, greenyellow, silver)}
+footer {font-size: 0.8rem; background: linear-gradient(to right, greenyellow, silver)}
+
+/* Main Element Styling */
+main h2 {font: italic small-caps normal serif sans-serif  ; color: red; text-align: center;}
+#quotes {font: italic small-caps bold serif sans-serif; 
+    color: blue; 
+    padding: .25rem;
+    border: .25rem solid black;
+    box-shadow: .25rem .25rem .25rem .25rem goldenrod;
+ }
+ figure {border: .25rem solid goldenrod;
+        background-color: aqua;
+        padding: .5rem;
+        display: block;
+        border-radius: .5rem;
+        width: 50%;
+       
+}
+img {border: .25rem solid goldenrod; border-radius: .5rem; display: block; margin: auto;}
+figcaption {font: italic small-caps bold verdana sans-serif; color: red;}
+iframe {border: .25rem solid goldenrod; border-radius: .5rem; display: block;}
