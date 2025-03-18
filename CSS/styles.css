@@ -79,3 +79,26 @@ main > h2 { color: red; }
 img {border: .25rem solid goldenrod; border-radius: .5rem; display: block; margin: auto;}
 figcaption {font: italic small-caps bold verdana sans-serif; color: red;}
 iframe {border: .25rem solid goldenrod; border-radius: .5rem; display: block;}
+
+/* Responsive design */
+@media (max-width: 400px){
+    html{
+        font-size: 10px;
+    }
+    main{
+        width : 100%;
+        float : none
+    }
+    aside{
+        width : 100%;
+        float : none
+    }
+    blockquote {
+        width : 100%;
+        float : none
+    }
+    figure {
+        width : 100%;
+        float : none
+    }
+}
