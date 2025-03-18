@@ -12,40 +12,56 @@ header, main, aside, footer {
 }
 
 /* Layout design */
+        /* Floating the main and aside section */
 main {
     padding: .5rem;
     margin: .5rem;
-    width: 55%;
+    width: 65%;  /* Reduced the width to accomadate padding and margin */
     float: left;
 }
 aside {
     padding: .5rem;
     margin: .5rem;
-    width: 35%;
+    width: 25%;    /* Reduced the width to accomadate padding and margin */
     float: right;
 }
 footer {clear: both;}
 
+        /* Floating the biography and image */
 blockquote {width: 30%; float: left;}
 figure {width: 30%; float: right;}
 #quotes {clear: both;}
 
 /* Aside Styling */
+aside h2 {text-align: center; font-variant: small-caps; color: red;} /* headings styling */
+
+        /* List Styling */
 a:hover {color: red;}
 li {list-style-type: none;  }
 a {text-decoration: none; color: blue; line-height: 1.8;}
-aside h2 {text-align: center; font-variant: small-caps; color: red;}
-label {font-variant: small-caps; font-weight: bold; color: brown; text-align: center;}
-input, textarea, select {width: 50%; height: 2rem; padding: 0.5rem; margin-bottom: 1rem; display: block;}
+
+        /* Form Styling */  
+label {font-variant: small-caps; font-weight: bold; color: brown; text-align: center;} 
+input, textarea, select {
+    width: 100%;
+    max-width: 31.25rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin: 0 auto 1rem;
+    display: block;
+}
 
 
 /* Header and Footer */
 h1 {font-size: 1.5rem; background: linear-gradient(to right, greenyellow, silver)}
 footer {font-size: 0.8rem; background: linear-gradient(to right, greenyellow, silver)}
 
+
 /* Main Element Styling */
-main h2 {font: italic small-caps normal serif sans-serif  ; color: red; text-align: center;}
-#quotes {font: italic small-caps bold serif sans-serif; 
+main h2 {font: italic small-caps normal serif sans-serif  ; color: red; text-align: center;}  /* headings styling */
+main > h2 { color: red; }
+
+#quotes {font: italic small-caps bold serif sans-serif;  /* quotes styling */
     color: blue; 
     padding: .25rem;
     border: .25rem solid black;
@@ -57,8 +73,9 @@ main h2 {font: italic small-caps normal serif sans-serif  ; color: red; text-ali
         display: block;
         border-radius: .5rem;
         width: 40%;
-       
-}
+       }
+
+/* Figure, Image and Video styling */
 img {border: .25rem solid goldenrod; border-radius: .5rem; display: block; margin: auto;}
 figcaption {font: italic small-caps bold verdana sans-serif; color: red;}
 iframe {border: .25rem solid goldenrod; border-radius: .5rem; display: block;}
